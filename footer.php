@@ -5,37 +5,25 @@
 			
 			<div class="contact cols">
 				<div class="col3">
-					<figure><img src="img/logo_ft_m10.png"></figure>
+					<figure><img src="img/logo-gtech_bn.png"></figure>
 				</div>
 
 				<div class="col3">
 					<ul>
-						<li><a href="index.php" <?php if($uri == 'index') echo 'class="active"'?> >Inicio</a></li>
-						<li><a href="quienessomos.php" <?php if($uri == 'quienessomos') echo 'class="active"'?> >Quienes somos</a></li>
-						<li><a href="horarios-especialidades.php" <?php if($uri == 'horarios-especialidades') echo 'class="active"'?> >Horarios y especialidades</a></li>
-						<!-- li><a href="ubicacion.php" <?php if($uri == 'ubicacion') echo 'class="active"'?> >Ubicaci&oacute;n</a></li -->
-						<li><a href="contactos.php" <?php if($uri == 'contactos') echo 'class="active"'?> >Contactos</a></li>
+						<li><a href="index.php">Inicio</a></li>
+						<li><a href="quienessomos.php">Quienes somos</a></li>
+						<li><a href="productos.php">Productos</a></li>
+						<li><a href="contactos.php">Cont&aacute;ctenos</a></li>
 					</ul>
 				</div>
 
 				<div class="col3">
-						Dirección: Ciudadela Vernaza Norte Mz 17 V 23 Avenida Hermano Miguel.<br>
-						Telfs.: (593 4) 292 4874 <br>
-						Cel: 0980042103 - 0981600116<br>
-						E-mail: info@cismedical10.com<br>
-						Guayaquil - Ecuador <br>
+					GTECH MEDICAL SUPPLY CORP.<br>
+					6830 SW 159TH PL<br>
+					MIAMI, FL 33193<br>
+					<a href="mailto:info©gtech.com">info©gtech.com</a>
 				</div>
 				
-
-				<!-- Footer-menu -->
-				<!--nav id="footer-menu">
-					<ul>
-						<li><a href="index.php" <?php if($uri == 'index') echo 'class="active"'?> >Inicio</a></li>
-						<li><a href="quienessomos.php" <?php if($uri == 'quienessomos') echo 'class="active"'?> >Quienes somos</a></li>
-						<li><a href="productos.php" <?php if($uri == 'productos') echo 'class="active"'?> >Productos</a></li>
-						<li><a href="contactos.php" <?php if($uri == 'contactos') echo 'class="active"'?> >Contactos</a></li>
-					</ul>
-				</nav -->
 
 			</div>
 			
@@ -45,14 +33,8 @@
 			
 			<!-- Copyright -->
 			<div class="copyright">
-				&copy; 2016 Medical10  -  Todos los derechos reservados. 
-			</div>
-
-			<div class="planb">
-				Desarrollado por 
-				<a href="http://www.planb.ec" target="_blank"><img src="img/planb.jpg" title="PlanB.ec"></a>
-			</div>
-			
+				&copy; 2018 GTech  -  Todos los derechos reservados. 
+			</div>		
 
 			
 		</div><!-- /#bottom-footer -->

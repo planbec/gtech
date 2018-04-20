@@ -75,7 +75,7 @@
 #main-header .menu-trigger{ display:none }
 .logo-header{ display:table-cell; /*width:27%;*/ padding:1rem 0;
 	.logo {margin:0;display:block; line-height:1.2em;
-		img { width: 100%; }
+		img { width: 100%; max-width: 170px;}
 	 }
 	.slogan{ display:none; font-size:.7em;text-align:center;text-transform:uppercase;line-height:1.2em;
 	}

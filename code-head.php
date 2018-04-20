@@ -12,17 +12,14 @@ $uri = (empty($uri)) ? 'index' : $uri;
 	<meta charset="utf-8">
 	<title>Medical 10 | Centro Integral de Salud</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="author" content="Carlos Zambrano M. - PlanB.ec | Francisco Aguilera G. - http://franciscoamk.com">
+	<meta name="author" content="Carlos Zambrano M. - PlanB.ec | Jose Darío Maldonado. - clickderecho.com">
 	
 	<link rel="stylesheet" href="css/master.css" >
 	<link rel="stylesheet" href="css/normalize.css" >
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>	
-	<link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700' rel='stylesheet' type='text/css'>
-	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet"> 
 	<!--link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="favicon.ico">
