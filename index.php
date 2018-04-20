@@ -12,10 +12,7 @@
 
 	<div class="bg-cont">		
 		<!-- Servicios -->	
-			<?php include("servicios-home.php"); ?>
-
-		<!-- Servicios -->	
-			<?php include("cont-home.php"); ?>
+		<?php include("productos-home.php"); ?>
 
 	<div>
 	</main>
