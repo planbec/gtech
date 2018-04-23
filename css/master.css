@@ -1064,7 +1064,9 @@ figure {
     width: 96%; }
 
   .servicio-resumen.col3 {
-    width: 25% !important; } }
+    width: 25% !important; } 
+}
+
 /* Media Query 480px */
 @media only screen and (max-width: 30rem) {
   #testimonios-area .container {
@@ -1075,7 +1077,23 @@ figure {
 
   .testimonio cite img {
     float: none;
-    margin: 0 auto; } }
+    margin: 0 auto; } 
+    #content-area {
+        clear: both;
+        margin-top: 4rem;
+    }
+
+   .thumb-productos {
+    display: block;
+    }
+
+  .thumb-productos li {
+    padding: 0;
+  }
+
+}
+
+
 /* Media Query 530px */
 @media only screen and (max-width: 33.125rem) {
   .detalle-page {
@@ -1171,7 +1189,8 @@ figure {
   #main-header {
     display: block;
     background: #FFF;
-    box-shadow: 1px 0px 5px #666; }
+    box-shadow: 1px 0px 5px #666; 
+  }
 
   #main-header .header-cont {
     background: #FFF; }
@@ -1196,13 +1215,14 @@ figure {
     text-align: left; }
 
   #main-menu {
-    width: 100%;
     clear: both;
     text-align: center;
-    background: #cddbe1;
-    border: solid .0625rem #9fb9be;
+    background: #f7f7f7;
+    border: solid 1px #ddd;
     padding: .5em;
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    border-bottom: 3px solid #0090a8;
+  }
 
   #main-menu.open {
     display: block; }
@@ -1217,9 +1237,14 @@ figure {
       padding: .5em 1em;
       border-top: 0; }
     #main-menu ul li a:hover, #main-menu ul li a.active {
-      background: #9fb9be;
+      background: #f59f13;
       color: #FFF;
-      border-top: 0; }
+      border-top: 0; 
+      width: 96%;
+    }
+    #main-menu ul li a:after {
+      left: 48%;
+    }
     #main-menu ul li.featured a {
       background: 0;
       color: #7e89a3;
@@ -1241,6 +1266,15 @@ figure {
   .container.page-content aside {
     width: 90%;
     margin: 0 2%; }
+
+.intro_inf {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+  .intro_inf p {
+      font: 1.5rem/1.8rem Raleway,Arial;
+      margin-bottom: 1rem;
+  }
 
   .btn {
     font-size: 0.9rem;
