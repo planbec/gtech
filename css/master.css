@@ -74,12 +74,14 @@ img {
 
 .img-left {
     float: left;
+    width: 100%;
     max-width: 380px;
     margin-right: 1rem;
 }
 
 .img-right {
     float: right;
+    width: 100%;
     max-width: 380px;
     margin-right: 1rem;
 }
@@ -911,24 +913,6 @@ input[type="submit"], input[type="button"] {
 }
 
 
-figure.icono-servicio {
-  color: #6a8d93;
-  font-size: 4rem;
-  width: 7rem;
-  height: 7rem;
-  line-height: 7rem;
-  -webkit-border-radius: 10rem;
-  -moz-border-radius: 10rem;
-  -ms-border-radius: 10rem;
-  -o-border-radius: 10rem;
-  border-radius: 10rem;
-  background: #f6f6f8;
-  border: solid .0625rem #d9d9e2;
-  text-align: center;
-  /*i { background: #FFF;}*/ }
-  figure.icono-servicio img {
-    vertical-align: middle; }
-
 .portafolio-resumen {
   text-align: center; }
   .portafolio-resumen h2 {
@@ -1098,7 +1082,9 @@ figure {
 @media only screen and (max-width: 33.125rem) {
   .detalle-page {
     display: block;
-    padding: 0.8rem; }
+    padding: 0.8rem;
+    width: 100%;
+    }
     .detalle-page .icono-servicio {
       margin: 0 auto 1.5rem auto; }
     .detalle-page .icono {
@@ -1264,7 +1250,7 @@ figure {
     width: 90%;
     margin: 0 2%; }
   .container.page-content aside {
-    width: 90%;
+    width: 100%;
     margin: 0 2%; }
 
 .intro_inf {
@@ -1279,6 +1265,8 @@ figure {
   .btn {
     font-size: 0.9rem;
     padding: 0.8rem 1.2rem; }
+
+   .btn-form { margin: 0 30% !important; }
 
   .servicio-resumen .text {
     display: none; }
