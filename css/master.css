@@ -509,9 +509,10 @@ hr.center {
   border-bottom: 1px solid #999; }
 
 #testimonios-area {
-  background: url(../img/bk_slider.png) top center;
+  background: #9ea7bb;
   color: #fff;
-  /*padding:4em 0 4em 0;*/
+  box-shadow: 2px -14px 22px -20px rgba(0,0,0,.2) inset;
+  margin: -2rem 0 0;
   position: relative; }
 
 #testimonios-area .container {
@@ -708,10 +709,11 @@ input[type="submit"], input[type="button"] {
 
 
 .page-header {
-  background: url(../img/bk_slider.png) top center;
-  box-shadow: 2px -14px 22px -13px #85a0a5 inset;
-  padding: 7rem 0 1rem;
-  text-align: center; }
+    box-shadow: 2px -14px 22px -13px rgba(0,0,0,.2) inset;
+    padding: 7rem 0 1rem;
+    text-align: center;
+    background: #9ea7bb;
+  }
   .page-header h1 {
     color: #FFF;
     font: 600 1.8rem/2.1rem Lato, Arial;
