@@ -1010,8 +1010,8 @@ article.portafolio-resumen img {
   background: rgba(0, 0, 0, 0.5);
   display: none;
   padding: 1.4rem;
-  width: 100%;
   text-align: center;
+  width: 100%;
   z-index: 80; }
   .intro_inf p {
     font: italic 1.7rem/2.2rem 'Open Sans', Arial;
@@ -1069,11 +1069,11 @@ figure {
     } 
 
    .container.page-content ul {
+      clear: both;
       margin-bottom: 3rem;
+      margin-left: 0;
       overflow: hidden;
       padding: 0 !important;
-      margin-left: 0;
-      clear: both;
   }
   .thumb-noticias li {
       display: inline-block;
@@ -1091,20 +1091,20 @@ figure {
 /* Media Query 480px */
 @media only screen and (max-width: 30rem) {
   #main-menu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
       background: 0;
       float: left;
+      list-style: none;
+      margin: 0;
+      padding: 0;
       width: 100%;
   }
 
 #main-header .header-cont .redes {
+    clear: both;
     float: right;
     margin-top: 1rem;
-    width: 100%;
-    clear: both;
     text-align: center;
+    width: 100%;
 }
 
   #testimonios-area .container {
