@@ -693,13 +693,13 @@ input[type="submit"], input[type="button"] {
 .thumb-noticias li {
     box-sizing: border-box;
     display: inline-block;
-    margin: 1%;
+    margin: 1rem 1% 1rem 1%;
     text-align: center;
     width: 100%;
 }
 
 .thumb-noticias li h4 {
-  margin-top: 0.6rem !important;
+  margin-top: 0 !important;
 }
 
 .thumb-noticias li h4 a {
@@ -707,7 +707,7 @@ input[type="submit"], input[type="button"] {
     font-weight: 400;
     text-decoration: none !important;
     color: #36474f !important;
-    width: 80% !important;
+    width: 100% !important;;
     margin-left: 5%;
 }
 
@@ -781,7 +781,7 @@ input[type="submit"], input[type="button"] {
     display: inline-block;
     float: left;
     overflow: hidden;
-    width: 10%;
+    width: 18%;
     }
     .container.page-content a:hover {
       color: #227acb; }
@@ -1087,7 +1087,7 @@ figure {
   }
   .thumb-noticias li {
       display: inline-block;
-      width: 48%;
+      width: 100%;
       margin: 1%;
       text-align: center;
       float: left;
@@ -1095,6 +1095,8 @@ figure {
   .thumb-noticias li h4 {
       margin-top: 0 !important;
       text-align: center;
+      clear: both;
+      width: 100% !important;
   }
 }
 
@@ -1368,8 +1370,12 @@ figure {
     padding: .5em 0; }
 
   ul li a {
-    padding: .5em 0.35rem !important;
-    margin: 0 0.35rem !important; }
+    font-size: 1rem !important;
+    line-height: 1.5rem;
+    margin: 0 0.35rem !important; 
+    padding: 0 0 .5em  !important;
+    width: 100% !important;
+    }
 
   .servicio-resumen h2 {
     display: none; } }
